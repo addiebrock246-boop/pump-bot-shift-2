@@ -3,7 +3,7 @@ name: Pump.fun Monitor - Shift 2 (6 AM - 12 PM)
 on:
   schedule:
     - cron: '0 6 * * *'
-    timezone: "Asia/Kolkata"
+      timezone: "Asia/Kolkata"
   workflow_dispatch:
 
 jobs:
